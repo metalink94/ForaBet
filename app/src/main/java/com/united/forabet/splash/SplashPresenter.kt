@@ -16,7 +16,8 @@ class SplashPresenter : ViewPresenter<SplashView>() {
         inCorrectCountry = isCorrectCountry()
         if (inCorrectCountry) {
             showNeededScreen()
-            return
+        } else {
+            getView()?.showStub()
         }
         /*val ip = Utils.getIPAddress(true)
         unsubscribeOnDestroy(ipService.getIpLocation(ip, Features.API_KEY)

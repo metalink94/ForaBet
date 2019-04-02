@@ -21,7 +21,7 @@ import kotlinx.android.synthetic.main.activity_web.*
 
 class WebViewActivity : BaseActivity() {
 
-    var currentUrl: String = getString(R.string.url)
+    var currentUrl: String = ""
     private var uploadMessage: ValueCallback<Array<Uri>>? = null
     private var mUploadMessage: ValueCallback<Uri>? = null
     private val PICK_FROM_GALLERY = 1

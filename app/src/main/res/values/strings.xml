@@ -2,7 +2,10 @@
     <string name="app_name">ForaBet</string>
     <string name="default_notification_channel_id">fcm_default_channel</string>
     <string name="url">https://bet4ra.com/go.php?id=250</string>
-    <string name="key_first">first</string>
-    <string name="key_two">two</string>
+
+    <string name="key_first">url</string>
+    <string name="key_two">stub</string>
     <string name="key_country">countries</string>
+
+    <string name="loading">Loading...</string>
 </resources>

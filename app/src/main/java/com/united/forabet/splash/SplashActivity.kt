@@ -17,12 +17,14 @@ import java.util.*
 
 class SplashActivity: BaseActivity(), SplashView {
 
-    private var url: String? = getString(R.string.url)
+    private var url: String? = ""
 
     private val presenter: SplashPresenter = SplashPresenter()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_splash)
+        url = getString(R.string.url)
         presenter.setView(this)
         presenter.onCreate()
         checkDatabase()

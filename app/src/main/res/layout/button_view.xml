@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:background="@drawable/button_bg"
+              android:minWidth="120dp"
+              android:minHeight="120dp"
+              android:padding="@dimen/spacing_normal_16">
+
+    <ImageView
+            android:id="@+id/icon"
+            android:layout_marginTop="@dimen/spacing_smallest_8"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+    <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Теннис"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_big"
+            android:maxWidth="@dimen/button_width"/>
+
+</LinearLayout>
