@@ -8,4 +8,18 @@
     <string name="key_country">countries</string>
 
     <string name="loading">Loading...</string>
+    
+    <string name="kings">kings xi punjab</string>
+    <string name="delhi">Delhi Capitals</string>
+    <string name="score_1">166 : 152\n01.04.19 17:30</string>
+    <string name="description">The underperformed teams in the IPL history, Kings XI Punjab and the Delhi Capitals began the 2019 edition on a positive note. Both the teams won their respective first matches but lost the second game. They bounced back with victories during the doubleheader on Saturday. The Kings XI has had moments of controversies in the three matches in this edition. The Capitals, on the other hand, stopped the Kolkata Knight Riders’ winning run in a game that went down to the Super Over.</string>
+    
+    <string name="sunrisers">sunrisers hyderabad</string>
+    <string name="royal">royal challengers bangalore</string>
+    <string name="score_2">231 : 113\n31.03.19 13:30</string>
+    <string name="description_2">After thrashing Rajasthan Royals in their first home game, Sunrisers Hyderabad is set to host Royal Challengers Bangalore at Rajiv Gandhi International Cricket Stadium. The hosts will be ecstatic by their highest successful run chase in the history of IPL when in the previous encounter while Virat Kohli and Co. will look to register their first win of this campaign. We can expect another intriguing battle tomorrow when these two giants come face-to-face.</string>
+
+    <string name="chennai">chennai super kings</string>
+    <string name="score_3">147 : 150\n26.03.19 17:30</string>
+    <string name="description_3">Highlights: Shane Watson and Suresh Raina made batting look easy on a lifeless track as Chennai Super Kings coasted to a six-wicket victory over Delhi Capitals in an Indian Premier League encounter in New Delhi on Tuesday. Shikhar Dhawan’s painstaking half-century was the only silver lining in Delhi Capitals’ sub-par total of 147 for six which the defending champions overtook with two balls to spare. The scoreline might suggest that it was a close game but CSK were always in control of the chase despite a lot of balls being wasted by Mahendra Singh Dhoni at the back end of the innings.</string>
 </resources>

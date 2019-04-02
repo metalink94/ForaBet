@@ -39,6 +39,9 @@
                   android:configChanges="keyboardHidden|orientation|screenSize"
                   android:windowSoftInputMode="stateHidden|adjustResize"/>
 
+        <activity android:name=".menu.DetailTeamActivity"
+                  android:screenOrientation="portrait"/>
+
         <!--services-->
         <service android:name=".push.MyFirebaseMessagingService">
             <intent-filter>

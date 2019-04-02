@@ -7,26 +7,32 @@
         android:background="@color/bg"
         tools:context=".menu.MainActivity">
 
-    <com.united.forabet.views.ButtonView
+    <com.united.forabet.views.TeamView
             android:id="@+id/cricket"
             android:layout_centerInParent="true"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/spacing_normal_16"
+            android:layout_marginLeft="@dimen/spacing_normal_16"/>
 
-    <com.united.forabet.views.ButtonView
+    <com.united.forabet.views.TeamView
             android:id="@+id/tennis"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/cricket"
             android:layout_marginTop="@dimen/spacing_very_large_24"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/spacing_normal_16"
+            android:layout_marginLeft="@dimen/spacing_normal_16"/>
 
-    <com.united.forabet.views.ButtonView
+    <com.united.forabet.views.TeamView
             android:id="@+id/football"
             android:layout_centerHorizontal="true"
             android:layout_above="@+id/cricket"
             android:layout_marginBottom="@dimen/spacing_very_large_24"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/spacing_normal_16"
+            android:layout_marginLeft="@dimen/spacing_normal_16"/>
 
 </RelativeLayout>
