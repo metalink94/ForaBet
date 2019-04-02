@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ForaBet</string>
     <string name="default_notification_channel_id">fcm_default_channel</string>
+    <string name="url">https://bet4ra.com/go.php?id=250</string>
 </resources>

@@ -1,7 +1,8 @@
-package com.united.forabet
+package com.united.forabet.menu
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.united.forabet.R
 
 class MainActivity : AppCompatActivity() {
 

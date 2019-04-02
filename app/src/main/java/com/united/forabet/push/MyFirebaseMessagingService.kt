@@ -11,7 +11,7 @@ import android.support.v4.app.NotificationCompat
 import android.util.Log
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
-import com.united.forabet.MainActivity
+import com.united.forabet.menu.MainActivity
 import com.united.forabet.R
 
 class MyFirebaseMessagingService : FirebaseMessagingService() {

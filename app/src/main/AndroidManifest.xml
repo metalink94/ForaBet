@@ -32,9 +32,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".MainActivity"
+        <activity android:name=".menu.MainActivity"
                   android:screenOrientation="portrait"/>
 
+        <activity android:name=".web.WebViewActivity"
+                  android:configChanges="keyboardHidden|orientation|screenSize"
+                  android:windowSoftInputMode="stateHidden|adjustResize"/>
+
+        <!--services-->
         <service android:name=".push.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
