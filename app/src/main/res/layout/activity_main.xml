@@ -7,32 +7,47 @@
         android:background="@color/bg"
         tools:context=".menu.MainActivity">
 
-    <com.united.forabet.views.TeamView
-            android:id="@+id/cricket"
-            android:layout_centerInParent="true"
+    <ImageView
+            android:id="@+id/icon"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="@dimen/spacing_normal_16"
-            android:layout_marginLeft="@dimen/spacing_normal_16"/>
+            android:layout_height="64dp"
+            android:src="@drawable/logo2"
+            android:layout_margin="@dimen/spacing_normal_16"
+            android:layout_centerHorizontal="true"/>
 
-    <com.united.forabet.views.TeamView
-            android:id="@+id/tennis"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/cricket"
-            android:layout_marginTop="@dimen/spacing_very_large_24"
-            android:layout_width="wrap_content"
+    <android.support.v4.widget.NestedScrollView
+            android:layout_below="@+id/icon"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginRight="@dimen/spacing_normal_16"
-            android:layout_marginLeft="@dimen/spacing_normal_16"/>
+            android:layout_marginTop="@dimen/spacing_very_large_24">
 
-    <com.united.forabet.views.TeamView
-            android:id="@+id/football"
-            android:layout_centerHorizontal="true"
-            android:layout_above="@+id/cricket"
-            android:layout_marginBottom="@dimen/spacing_very_large_24"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="@dimen/spacing_normal_16"
-            android:layout_marginLeft="@dimen/spacing_normal_16"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <com.united.forabet.views.TeamView
+                    android:id="@+id/tennis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_normal_16"/>
+
+            <com.united.forabet.views.TeamView
+                    android:id="@+id/football"
+                    android:layout_marginBottom="@dimen/spacing_very_large_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_normal_16"/>
+
+            <com.united.forabet.views.TeamView
+                    android:id="@+id/cricket"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/spacing_normal_16"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
 
 </RelativeLayout>
