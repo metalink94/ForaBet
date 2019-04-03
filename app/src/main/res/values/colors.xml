@@ -7,5 +7,7 @@
     <color name="main_color">#fff</color>
     <color name="toolbar_color">#80FFFFFF</color>
 
+    <color name="white_20">#E6FFFFFF</color>
+
     <color name="bg">#121921</color>
 </resources>
