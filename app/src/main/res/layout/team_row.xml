@@ -34,6 +34,7 @@
                     android:layout_height="wrap_content"
                     android:maxWidth="120dp"
                     android:gravity="center"
+                    android:textAllCaps="true"
                     android:text="TeamLeft"/>
 
         </LinearLayout>
@@ -71,6 +72,7 @@
                     android:layout_height="wrap_content"
                     android:maxWidth="120dp"
                     android:gravity="center"
+                    android:textAllCaps="true"
                     android:text="TeamRight"/>
 
         </LinearLayout>

@@ -16,9 +16,9 @@ class MainActivity : BaseActivity() {
     }
 
     private fun initButtons() {
-        cricket.init(TeamModel(R.string.kings, R.drawable.king, R.string.delhi, R.drawable.capitals,
+        tennis.init(TeamModel(R.string.kings, R.drawable.punjab, R.string.delhi, R.drawable.capitals,
             R.string.score_1, R.string.description))
-        cricket.setOnClickListener {
+        tennis.setOnClickListener {
             onItemClick(it)
         }
         football.init(TeamModel(R.string.sunrisers, R.drawable.sinrises, R.string.royal, R.drawable.rc,
@@ -26,9 +26,9 @@ class MainActivity : BaseActivity() {
         football.setOnClickListener {
             onItemClick(it)
         }
-        tennis.init(TeamModel(R.string.kings, R.drawable.capitals, R.string.delhi, R.drawable.king,
+        cricket.init(TeamModel(R.string.chennai, R.drawable.king, R.string.kings, R.drawable.punjab,
             R.string.score_3, R.string.description_3))
-        tennis.setOnClickListener {
+        cricket.setOnClickListener {
             onItemClick(it)
         }
     }
