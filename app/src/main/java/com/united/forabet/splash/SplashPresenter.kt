@@ -19,20 +19,6 @@ class SplashPresenter : ViewPresenter<SplashView>() {
         } else {
             getView()?.showStub()
         }
-        /*val ip = Utils.getIPAddress(true)
-        unsubscribeOnDestroy(ipService.getIpLocation(ip, Features.API_KEY)
-            .observeOn(AndroidSchedulers.mainThread())
-            .subscribeOn(Schedulers.io())
-            .subscribe({
-                if (!it.countryCode.isNullOrEmpty()) {
-                    countryISO = it.countryCode
-                }
-                showNeededScreen()
-            }, {
-                Log.e("Error", it.localizedMessage)
-                showNeededScreen()
-            })
-        )*/
     }
 
     private fun stringToList() {

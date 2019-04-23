@@ -41,7 +41,6 @@ class SplashActivity: BaseActivity(), SplashView {
                 }
                 Log.d("DataBase", "get database ${p0.value}")
                 presenter.checkIp()
-//                showAlertDialog()
                 Log.d("CheckCountry", "User Country ${checkCountry()}")
             }
 

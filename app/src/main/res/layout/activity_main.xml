@@ -27,14 +27,14 @@
                 android:orientation="vertical">
 
             <com.united.forabet.views.TeamView
-                    android:id="@+id/tennis"
+                    android:id="@+id/football"
+                    android:layout_marginBottom="@dimen/spacing_very_large_24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/spacing_normal_16"/>
 
             <com.united.forabet.views.TeamView
-                    android:id="@+id/football"
-                    android:layout_marginBottom="@dimen/spacing_very_large_24"
+                    android:id="@+id/tennis"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/spacing_normal_16"/>
