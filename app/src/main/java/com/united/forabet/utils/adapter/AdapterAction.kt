@@ -1,6 +1,6 @@
 package com.united.forabet.utils.adapter
 
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView
 
 interface AdapterAction<in M, in H : RecyclerView.ViewHolder> {
     fun bind(model: M, viewHolder: H)
